@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+body{
+  background-color: rgb(71, 67, 121);
+}
+
+.nav{
+  background-color: rgb(2, 5, 40);
+  height: 4rem;
+  text-align: center;
+  font-size: 15px;
+}
+
+.nav h2{
+  padding-top: 1rem;
+  color: rgb(214, 193, 196);
+}
+
+.score-box{
+  height: 4rem;
+  width: 19rem;
+  background-color: rgb(1, 7, 121);
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.play-box{
+  height: 7rem;
+  width: 18rem;
+  /* background-color: green; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user,.computer{
+  background-color: #131a39;
+  height: 7rem;
+  width: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user img,.computer img{
+  height: 7rem;
+}
+
+.choices-box{
+  /* background-color: red; */
+  height: 8rem;
+  width: 18rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choices-box .image-box{
+  margin-top: 30px;
+}
+
+.choices-box img{
+  height: 4rem;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.choices-box img:hover{
+  border: 2px solid red;
+}
+
+.choices-box .reset-button-box button{
+  height: 2rem;
+  width: 7rem;
+  border-radius: 30px;
+  outline: none;
+  background-color: blue;
+  border: 1px transparent;
+  margin-top: 15px;
+}
+
+.choices-box .reset-button-box button:hover{
+  background-color: rgb(1, 19, 31);
+  color: rgb(255, 255, 255);
+}

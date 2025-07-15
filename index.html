@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scisser</title>
+    <link rel="shortcut icon" href="./Images/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <div class="nav">
+      <h2>Rock Paper Scissor</h2>
+    </div>
+
+    <div class="container">
+      <div class="score-box">
+        <p>You : <span id="user-score">0</span></p>
+        <p>Computer : <span id="computer-score">0</span></p>
+      </div>  
+      <div class="play-box">
+        <div class="user" id="user"></div>
+        <h3>VS</h3>
+        <div class="computer" id="computer"></div>
+      </div>
+      <div class="choices-box">
+        <div class="img-box">
+          <img src="./Images/paper.png" id="image" alt="paper">
+          <img src="./Images/rock.png" id="image" alt="rock">
+          <img src="./Images/scissor.png" id="image" alt="scissor">
+        </div>
+        <div class="reset-button-box">
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
